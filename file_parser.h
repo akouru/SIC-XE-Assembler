@@ -55,8 +55,6 @@ class file_parser {
         
         // returns the number of lines in the source code file
         int size();
-		
-		vector<string> get_lines();
         
     private:
 	struct Row {

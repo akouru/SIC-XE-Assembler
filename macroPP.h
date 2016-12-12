@@ -77,8 +77,18 @@ class macroPP{
 		vector<Row> transfer_macros(vector<Row>, vector<Row>, int);
 		vector<Row> get_macros(vector<Row>);
 		void print_macro();
-		string replace(string, string, string);
 		void create_file();
+		
+		vector<Row> replace_all(vector<Row>, string, string);
+		void expand_all_macros();
+		bool expand_macros();
+		int expand_macro(int);
+		string replace2(string, string, string);
+		vector<Row> remove_mincludes(file_parser);
+		
+		
+		
+		
 };
 
 #endif
